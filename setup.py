@@ -7,8 +7,8 @@ setup(
     install_requires=[
         line.strip() for line in open("requirements.txt").readlines() if line.strip()
     ],
-    author="Your Name",
-    author_email="your.email@example.com",
-    description="Your package description",
-    url="https://github.com/your-username/your-repo",
+    author="Raghav Singhal",
+    author_email="singhalraghav.59@gmail.com",
+    description="this is for library visulization",
+    url="https://github.com/raghav29061999/test_dv_deployment",
 )
