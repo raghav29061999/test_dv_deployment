@@ -3,13 +3,13 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "libsinstallation"  # Change this to your actual package name
+name = "libsinstallation"  
 version = "0.3.0"
 description = "this is for library visulization"
 authors = [{ name = "Raghav Singhal", email = "singhalraghav.59@gmail.com" }]
 readme = "README.md"
 license = { file = "LICENSE" }
-requires-python = ">=3.7"  # Adjust based on your Python version
+requires-python = ">=3.7"  
 dependencies = [
     "numpy",
     "matplotlib",
