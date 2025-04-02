@@ -5,7 +5,7 @@ setup(
     version="0.2",
     packages=find_packages(),
     install_requires=[
-        line.strip() for line in open("requirements.txt").readlines() if line.strip()
+        line.strip() for line in open("requirement.txt").readlines() if line.strip()
     ],
     author="Raghav Singhal",
     author_email="singhalraghav.59@gmail.com",
